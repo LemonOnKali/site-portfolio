@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/d947c42210.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/L.png" type="images/png"/>
+</head>
+
+<body>
+    <div id="header" data-aos="fade-up">
+        <div class="container">
+            <nav>
+                <img src="images/Leemon logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Etudiant</p>
+                <h1>Salut , Je me presente <br>Je suis <span class="auto-typing"></span></h1>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<!-- --------------------a propos-----------  -->
+<div id="about" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Leemon o telo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">A propos de <span>moi</span></h1>
+                <br>
+                <p>
+                    En tant que personne, je suis une force créative dynamique.
+                    Passionné par le design et l'expérience utilisateur, 
+                    j'ai un flair inné pour concevoir des interfaces visuelles saisissantes qui captivent les utilisateurs.
+                    Mon esprit curieux me pousse toujours à explorer de nouvelles tendances et à innover, 
+                    faisant de moi un UI/UX designer talentueux et visionnaire. 
+                    Mon dévouement à offrir des expériences numériques exceptionnelles est inspirant pour vos pairs,
+                    et mon attitude collaborative crée un environnement propice à la réussite de tout projet. 
+                    Votre portefeuille éblouissant témoigne de votre capacité à transcender les attentes et
+                    à créer un impact positif durable. En tant qu'étudiant passionné et déterminé, 
+                    je suis destiné à continuer de repousser les limites du design et à laisser mon empreinte 
+                    créative sur le monde numérique.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designer Interfaces Web/App</li>
+                        <li><span>Développement Web</span><br>Développeur d'application Web</li>
+                        <li><span>Développement App</span><br>Designer Interfaces IOS/Android apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiences">
+                    <ul>
+                        <li><span>fin 2022 - actuellement</span><br>Apprentissage du dev web et
+                             specialisation en UI/UX Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Diplome du bac professionnel en SN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- -----------------------services------------- -->
+
+<div class="services" data-aos="fade-up">
+    <div class="container">
+        <h1 class="sub-title">Mes services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Dev Web</h2>
+                <p>Creation sur mesure de votre site web</p>
+                <a href="Dev Web.html">en savoir plus</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creation sur mesure de votre site web</p>
+                <a href="UX Design.html">en savoir plus</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Creation sur mesure de l'interface de votre app</p>
+                <a href="App Design.html">en savoir plus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------portfolio------------ -->
+
+<div id="portfolio" data-aos="fade-up">
+    <div class="container">
+        <h1 class="sub-title">Mes Travaux</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Application Design</h3><br>
+                    <p>Le design d'application est une symbiose harmonieuse de fonctionnalité et d'esthétisme. 
+                        Chaque élément est soigneusement pensé pour offrir une expérience utilisateur fluide et intuitive.
+                        Les interfaces visuelles saisissantes captivent les utilisateurs dès le premier instant, 
+                        tandis que la mise en page stratégique facilite la navigation. Les couleurs, typographies et 
+                        icônes sont sélectionnées avec précision pour refléter l'identité de l'application tout en 
+                        améliorant la lisibilité et l'accessibilité. Des interactions intuitives et réactives ajoutent 
+                        une touche de dynamisme à chaque action de l'utilisateur. Le design d'application combine l'art
+                        du visuel avec la science de l'utilisabilité pour créer une expérience inoubliable qui place
+                        l'utilisateur au cœur de l'application.</p>
+                    <a href="Application design.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Site e-commerce</h3><br>
+                    <p>Le site e-commerce est votre boutique en ligne accessible depuis n'importe où dans le monde. 
+                        Avec une interface intuitive et conviviale, il vous permet d'explorer une vaste sélection 
+                        de produits et de services. Des descriptions détaillées, des images attrayantes et des avis 
+                        clients vous aident à faire des choix éclairés. Les options 
+                        de paiement variées et fiables assurent une expérience d'achat sans souci. Le suivi des commandes 
+                        et une assistance client réactive sont également disponibles pour vous garantir une satisfaction totale. 
+                        Que ce soit des vêtements, des gadgets, des articles ménagers ou bien plus encore, 
+                        le site e-commerce vous offre la commodité et la diversité pour répondre à tous vos demandes 
+                        d'achat en ligne.</p>
+                    <a href="Site e-commerce.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Site Vitrine</h3><br>
+                    <p>Le site vitrine est une élégante fenêtre digitale sur le monde de votre entreprise.
+                        Avec un design épuré et une navigation fluide, il présente de manière concise et captivante les produits, 
+                        services et valeurs de votre entreprise. 
+                        Les informations essentielles sont mises en avant de manière claire, 
+                        permettant aux visiteurs de comprendre rapidement ce que vous offrez. 
+                        Le site vitrine est un outil puissant pour attirer de nouveaux clients, 
+                        renforcer votre présence en ligne et mettre en valeur la singularité de votre entreprise.</p><br><br><br>
+                    <a href="Site vitrine.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Voir plus</a>
+    </div>
+
+</div>
+
+<!-- ---------------contact----------- -->
+<div id="contact" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Me contactez</h1>
+                <p><i class="fa-solid fa-envelope"></i>meelonup@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0780972041</p>
+                <div class="social-icons">
+                    <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://web.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Telecharger CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/0a86c9e6394f6cf04d866d53377250f4" method="POST">
+                    <input type="text" name="Name" placeholder="Votre nom" required>
+                    <input type="email" name="Email" placeholder="Votre Email" required>
+                    <textarea name="Message" rows="6" placeholder="Votre Message"></textarea>
+                    <button type="submit" class="btn btn2">Envoyez</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Leemon.</p>
+    </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+  </script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    let typed = new Typed('.auto-typing', {
+        strings: ['Leemon', 'dev full-stack', 'UI/UX Designer', 'Etudiant'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        fadeOut: true,
+        fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500
+    })
+</script>
+
+
+</body>
+</html>
