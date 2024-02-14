@@ -1,5 +1,5 @@
 const typingHeader = document.getElementById('auto-typing-header');
-const textToType = "BIENVENUE DANS L'UNIVERS DU COMMERCE EN LIGNE";
+const textToType = "BIENVENUE DANS L'UNIVERS DU SITE VITRINE";
 let index = 0;
 
 function typeText() {
@@ -12,7 +12,7 @@ function typeText() {
 }
 
 typeText();
-
+ 
 
 document.addEventListener('DOMContentLoaded', function () {
     // Ajoutez une classe au corps de la page pour déclencher l'animation générale
